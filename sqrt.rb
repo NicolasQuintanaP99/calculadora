@@ -1,9 +1,11 @@
+
 require_relative 'unary_operation'
 
-class Sqrt<UnaryOperation
+require_relative 'unary_operation'
+class Sqrt < UnaryOperation
 
-	def execute(operand)
-		Math.sqrt(operand)
+	def execute
+		Math.sqrt(@operand)
 	end
 
 end

@@ -1,9 +1,9 @@
 require_relative 'unary_operation'
 
-class Sq<UnaryOperation
+class Sq < UnaryOperation
 
 	def execute
-		operand*operand
+		@operand * @operand
 	end
 
 end

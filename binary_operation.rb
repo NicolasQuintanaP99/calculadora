@@ -1,7 +1,8 @@
-require_relative 'Operation'
+require_relative 'operation'
 
 class BinaryOperation < Operation
-attr_accessor :operand_1, :operand_2
+	
+	attr_accessor :operand_1, :operand_2
 
 	def add_operand(operand)
 		if operand_1.nil?
@@ -11,5 +12,6 @@ attr_accessor :operand_1, :operand_2
 		end
 		
 	end
+	
 end
-end
+

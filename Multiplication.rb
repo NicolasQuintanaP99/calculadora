@@ -1,6 +1,6 @@
-require_relative 'BinaryOperation'
+require_relative 'binary_operation'
 
-class Multiplication<BinaryOperation
+class Multiplication < BinaryOperation
 
 	def execute
 			operand_1*operand_2

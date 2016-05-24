@@ -1,9 +1,9 @@
 require_relative 'unary_operation'
 
-class Inv<UnaryOperation
+class Inv < UnaryOperation
 
-	def operand
-		1/operand
+	def execute
+		1 / @operand
 	end
 
 end
